@@ -9,5 +9,5 @@ function plus(a, b) {
 }
 // plus(10 ,'20') // <- type Err
     
-var result = plus(10, '20') // <- 2行の ts-checkのおかげで Js上でts可
-result.toLocaleString(); // 数字タイプのため
+// var result = plus(10, '20') // <- 2行の ts-checkのおかげで Js上でts可
+// result.toLocaleString(); // 数字タイプのため
